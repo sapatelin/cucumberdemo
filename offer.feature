@@ -10,7 +10,7 @@ Feature: Evaluate percentage
     When if i will enter 11000
     Then we should get fifteen percentage discount
 
-     Scenario: Verify No offer
+   Scenario: Verify No offer
     Given Execute DiscountService Business
     When if i will enter 4000
     Then we shouldn't get any percentage
